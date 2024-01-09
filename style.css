@@ -1,0 +1,94 @@
+#headerSection{
+    background-image: url(./images/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navUL{
+    margin-left: 100px;
+}
+
+#headerSectionTextDiv{
+    margin-top: 8%;
+   width: 34%;
+
+}
+
+#cardText{
+text-align: justify;
+}
+
+#no2CardSection {
+background-color: #252b42;
+}
+
+#no2CardSection>div{
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+#footerFormEmailInput{
+    padding-right: 40%;
+}
+
+footer{
+    background-image: url(./images/background\ \(1\).png);
+    height: 62vh;
+    background-color: #f5f5f5af;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    section{
+        text-align: justify;
+    }
+
+    #navUL{
+        margin-left: 17%;
+    }
+
+    #headerSection{ 
+        height: 40vh; 
+        margin-bottom: 230px; 
+    }
+
+    #headerSectionTextDiv{
+        margin-top: 30%;
+       width: 100%;
+       padding: 10%;
+       text-align: center;
+    
+    }
+
+    #footerFormEmailInput{
+        padding-right: 6%;
+    }
+
+    footer{
+        background-image: url(./images/background\ \(2\).png);
+        height: 135vh;
+        background-color: #f1eeeeaf;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+  
+}
